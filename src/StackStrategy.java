@@ -1,0 +1,30 @@
+import java.util.Stack;
+
+/**
+ * ============================================================
+ * CLASS - StackStrategy
+ * ============================================================
+ *
+ * Implements palindrome check using Stack.
+ */
+
+public class StackStrategy implements PalindromeStrategy {
+
+    @Override
+    public boolean checkPalindrome(String input) {
+
+        Stack<Character> stack = new Stack<>();
+
+        for (char c : input.toCharArray()) {
+            stack.push(c);
+        }
+
+        for (char c : input.toCharArray()) {
+            if (c != stack.pop()) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
