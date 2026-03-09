@@ -202,35 +202,6 @@ Is Palindrome? : true
 
 ---
 
-# How to Run the Project
-
-Navigate to the source folder:
-
-```
-cd src
-```
-
-Compile Java file:
-
-```
-javac UseCaseXPalindromeCheckerApp.java
-```
-
-Run the program:
-
-```
-java UseCaseXPalindromeCheckerApp
-```
-
-Replace **X** with the required use case number.
-
-Example:
-
-```
-java UseCase5PalindromeCheckerApp
-```
-
----
 
 # Author
 
